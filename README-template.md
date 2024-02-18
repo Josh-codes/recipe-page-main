@@ -21,8 +21,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: ()
+- Solution URL:(https://www.frontendmentor.io/solutions/recipepagemain-using-html-and-css-HocySIPn4z)
+- Live Site URL: (https://golden-muffin-539e73.netlify.app/)
 
 ## My process
 
