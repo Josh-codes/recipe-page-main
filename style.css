@@ -1,0 +1,187 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    /* Colors */
+    --nutmeg: hsl(14, 45%, 36%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+
+     /* Fonts */
+  font: 400 16px/150% "Outfit", sans-serif;
+  color: var(--wenge-brown);
+  --heading1: 400 36px/100% "Young Serif", serif;
+  --heading2: 400 28px/100% "Young Serif", serif;
+  --heading3: 600 20px/150% "Outfit", sans-serif;
+  --text-bold: 700 16px/150% "Outfit", sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--eggshell);
+    font-family:"Outfit", sans-serif ;
+    font-weight: 400;
+    font-size: 16px/150%;
+    color: var(--wenge-brown);
+}
+
+b{
+  font-family: "Outfit", sans-serif;
+  font-size: 16px/150%;
+  font-weight:700 ;
+}
+
+
+.card{
+   
+  width: 500px;
+  
+  margin: 50% auto; 
+  background-color: white;
+  border-radius: 10px;
+}
+
+div img{
+  width: 450px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.heading{
+  margin-left: 20px;
+  margin-top: -20px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 36px/100%;
+  color: var(--dark-charcoal);
+}
+
+.description{
+  margin:20px;
+  line-height: 1.2;
+  font-size: 0.7em;
+  font-family: "Outfit";
+  font-weight: 400;
+  color: var(--wenge-brown);
+}
+
+div .time{
+  margin: 20px;
+  background-color: var(--rose-white) ;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+h2{
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-size: 28px/100%;
+  color: var(--nutmeg);
+}
+
+h3{
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 20px/150%;
+  font-weight: 600;
+  color: var(--nutmeg);
+}
+
+ul{
+  list-style-position: outside;
+  color: var(--nutmeg);
+  list-style-type: none;
+  
+
+}
+
+ol{
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+  
+}
+
+ul li{
+  padding-left: 15px;
+  color: var(--dark-charcoal);
+  position: relative;
+}
+
+ul li::before{
+  content:"\2022";
+  color: var(--nutmeg);
+  position: absolute;
+  left: 0;
+
+}
+
+ol li{
+  padding-left: 15px;
+  position: relative;
+  color: var(--dark-charcoal);
+  }
+
+ol li::before{
+  
+  content: counter(list-item) ". "; /* Use the counter value as content */
+  color: var(--nutmeg); /* Color of the number */
+  font-weight: bold; /* Optionally, make the number bold */
+  margin-right: 10px; /* Add spacing between number and text */
+  position: absolute;
+  left: 0;
+}
+.list1{
+  margin-top: -10px;
+}
+
+.ingredients{
+  margin: 20px;
+}
+.list2{
+  margin-left: -20px;
+  font-size: 0.9em;
+}
+
+
+
+.instructions{
+  border-top: 1px solid var(--light-grey);
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.list3{
+  margin-left: 0px;
+  font-size: 0.76em;
+}
+
+.nutrition{
+  border-top: 1px solid var(--light-grey);
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.nutrition p{
+  font-size: 0.78em;
+}
+
+table {
+  border-collapse: collapse; /* Collapse border spacing */
+  width: 100%; /* Set table width */
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--light-grey); /* Add border to every row except the last one with 50% opacity */
+}
+
+.numbers{
+  color: var(--nutmeg);
+}
